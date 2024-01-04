@@ -1,0 +1,55 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.menu-item {
+  color: #718096; /* or use text-gray-500 from Tailwind */
+  font-size: 1rem; /* or use text-base from Tailwind */
+  font-family: 'YourFontBook', sans-serif; /* or use font-book from Tailwind */
+  margin-top: 1rem; /* or use mt-4 from Tailwind */
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: #da1bc1; /* or use text-red-500 from Tailwind */
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
